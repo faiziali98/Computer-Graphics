@@ -1,0 +1,71 @@
+﻿Build started 8/29/2016 7:41:28 PM.
+     1>Project "D:\Faizi\5th Semester\CG\Assignments\Assignment 1\CS452_Assign1_SkelCode\CS452Assign1\CS452Assign1\CS452Assign1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\CS452Assign1.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>C:\MinGW\include\winnt.h(3606): warning C4103: 'c:\mingw\include\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\MinGW\include\winnt.h(3908): warning C4103: 'c:\mingw\include\winnt.h' : alignment changed after including header, may be due to missing #pragma pack(pop)
+     1>C:\MinGW\include\winnt.h(4006): warning C4068: unknown pragma
+     1>C:\MinGW\include\winnt.h(4012): warning C4068: unknown pragma
+     1>C:\MinGW\include\winnt.h(4019): warning C4068: unknown pragma
+     1>C:\MinGW\include\winbase.h(1482): error C2144: syntax error : 'void' should be preceded by ';'
+     1>C:\MinGW\include\winbase.h(1482): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\MinGW\include\winbase.h(1483): error C2144: syntax error : 'void' should be preceded by ';'
+     1>C:\MinGW\include\winbase.h(1483): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\MinGW\include\winbase.h(1483): error C2086: 'int DECLSPEC_NORETURN' : redefinition
+                 C:\MinGW\include\winbase.h(1482) : see declaration of 'DECLSPEC_NORETURN'
+     1>C:\MinGW\include\winbase.h(1543): error C2144: syntax error : 'void' should be preceded by ';'
+     1>C:\MinGW\include\winbase.h(1543): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+     1>C:\MinGW\include\winbase.h(1543): error C2086: 'int DECLSPEC_NORETURN' : redefinition
+                 C:\MinGW\include\winbase.h(1482) : see declaration of 'DECLSPEC_NORETURN'
+     1>C:\MinGW\include\stdlib.h(313): error C2146: syntax error : missing ',' before identifier '__nptr'
+     1>C:\MinGW\include\stdlib.h(314): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\stdlib.h(314) : see declaration of '__restrict__'
+     1>C:\MinGW\include\stdlib.h(315): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\stdlib.h(315) : see declaration of '__restrict__'
+     1>C:\MinGW\include\stdlib.h(329): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\stdlib.h(329) : see declaration of '__restrict__'
+     1>C:\MinGW\include\stdlib.h(330): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\stdlib.h(330) : see declaration of '__restrict__'
+     1>C:\MinGW\include\stdlib.h(513): error C2169: 'llabs' : intrinsic function, cannot be defined
+     1>C:\MinGW\include\stdlib.h(517): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\stdlib.h(517) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(155): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(154) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(157): error C2086: 'const wchar_t *__restrict__' : redefinition
+                 C:\MinGW\include\wchar.h(156) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(299): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(298) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(300): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(300) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(301): error C2371: '__restrict__' : redefinition; different basic types
+                 C:\MinGW\include\wchar.h(300) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(302): error C2040: '__restrict__' : 'const char **' differs in levels of indirection from 'wchar_t *'
+     1>C:\MinGW\include\wchar.h(303): error C2371: '__restrict__' : redefinition; different basic types
+                 C:\MinGW\include\wchar.h(302) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(305): error C2371: '__restrict__' : redefinition; different basic types
+                 C:\MinGW\include\wchar.h(304) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(306): error C2040: '__restrict__' : 'const wchar_t **' differs in levels of indirection from 'char *'
+     1>C:\MinGW\include\wchar.h(307): error C2371: '__restrict__' : redefinition; different basic types
+                 C:\MinGW\include\wchar.h(306) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(324): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(323) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(328): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(327) : see declaration of '__restrict__'
+     1>C:\MinGW\include\wchar.h(330): error C2373: '__restrict__' : redefinition; different type modifiers
+                 C:\MinGW\include\wchar.h(329) : see declaration of '__restrict__'
+     1>d:\faizi\5th semester\cg\assignments\assignment 1\cs452_assign1_skelcode\cs452assign1\cs452assign1\FreeImage.h(146): error C2371: 'BOOL' : redefinition; different basic types
+                 C:\MinGW\include\windef.h(234) : see declaration of 'BOOL'
+     1>d:\faizi\5th semester\cg\assignments\assignment 1\cs452_assign1_skelcode\cs452assign1\cs452assign1\FreeImage.h(159): error C2011: 'tagRGBQUAD' : 'struct' type redefinition
+                 C:\MinGW\include\wingdi.h(1397) : see declaration of 'tagRGBQUAD'
+     1>d:\faizi\5th semester\cg\assignments\assignment 1\cs452_assign1_skelcode\cs452assign1\cs452assign1\FreeImage.h(172): error C2011: 'tagRGBTRIPLE' : 'struct' type redefinition
+                 C:\MinGW\include\wingdi.h(1365) : see declaration of 'tagRGBTRIPLE'
+     1>d:\faizi\5th semester\cg\assignments\assignment 1\cs452_assign1_skelcode\cs452assign1\cs452assign1\FreeImage.h(190): error C2011: 'tagBITMAPINFOHEADER' : 'struct' type redefinition
+                 C:\MinGW\include\wingdi.h(1384) : see declaration of 'tagBITMAPINFOHEADER'
+     1>d:\faizi\5th semester\cg\assignments\assignment 1\cs452_assign1_skelcode\cs452assign1\cs452assign1\FreeImage.h(204): error C2011: 'tagBITMAPINFO' : 'struct' type redefinition
+                 C:\MinGW\include\wingdi.h(1403) : see declaration of 'tagBITMAPINFO'
+     1>Done Building Project "D:\Faizi\5th Semester\CG\Assignments\Assignment 1\CS452_Assign1_SkelCode\CS452Assign1\CS452Assign1\CS452Assign1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.68

@@ -1,0 +1,5 @@
+I have used shift + (g, h, j) for negetive rotations
+I have used g, h, j for postivie rotations
+I have used shift+n, n for movement of car
+I used shift+k,k for inside/outside moment of drill 
+I used m for rotation of drill

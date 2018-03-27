@@ -1,0 +1,20 @@
+﻿Build started 11/10/2015 8:48:01 PM.
+     1>Project "F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\CS452Assign2\CS452Assign2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\CS452Assign2.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt myraster.cpp
+         myraster.cpp
+     1>f:\faizi\5th semester\cg\assignments\assignment 2\cs452_assign2_skelcode_msvc\cs452assign2\myraster.cpp(350): warning C4018: '<': signed/unsigned mismatch
+     1>f:\faizi\5th semester\cg\assignments\assignment 2\cs452_assign2_skelcode_msvc\cs452assign2\myraster.cpp(359): warning C4018: '<': signed/unsigned mismatch
+     1>f:\faizi\5th semester\cg\assignments\assignment 2\cs452_assign2_skelcode_msvc\cs452assign2\myraster.cpp(361): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+     1>f:\faizi\5th semester\cg\assignments\assignment 2\cs452_assign2_skelcode_msvc\cs452assign2\myraster.cpp(367): warning C4018: '<': signed/unsigned mismatch
+       Link:
+         E:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\Debug\CS452Assign2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib OpenGL32.lib "F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\CS452Assign2\\FreeImage\FreeImage.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\Debug\CS452Assign2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\Debug\CS452Assign2.lib" /MACHINE:X86 Debug\CS452Assign2.res
+         Debug\CS452Assign2.obj
+         Debug\myraster.obj
+         Debug\stdafx.obj
+         CS452Assign2.vcxproj -> F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\Debug\CS452Assign2.exe
+     1>Done Building Project "F:\Faizi\5th Semester\CG\Assignments\Assignment 2\CS452_Assign2_SkelCode_MSVC\CS452Assign2\CS452Assign2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02
